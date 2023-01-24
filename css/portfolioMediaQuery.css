@@ -1,0 +1,1198 @@
+/* iPad in landscape Small Laptops*/
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .clock {
+        font-size: 2rem;
+        letter-spacing: 7px;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 3.5rem;
+        line-height: 3.8rem;
+    }
+    .loader .semi-circle {
+        top: calc(40% - 100px);
+        left: calc(125% - 100px);
+        width: 50px;
+        height: 50px;
+        border-bottom: 25px solid #ffffff;
+    }
+    .ball {
+        top: calc(34% - 50px);
+        left: calc(66% + 50px);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: bounceTablets 2s linear infinite;
+    }
+    @keyframes bounceTablets {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        30% {
+            transform: translateY(-115px);
+        }
+        40% {
+            transform: translateY(-140px);
+        }
+    }
+    .sidebar {
+        margin-top: 3rem;
+        width: 140px;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 14px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        margin-top: 1rem;
+        width: 72px;
+        transition: 1s ease-in-out;
+        overflow: visible;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .big-content {
+        margin-left: 90px !important;
+    }
+    .small-content {
+        margin-left: 150px;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 14px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 14px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 14px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 14px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 3rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 14px;
+    }
+    .modal-div {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .workPage .banner img {
+        height: 140px;
+    }
+    .project-card:hover .content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 14px;
+    }
+    .project-card:hover img {
+        height: 160px;
+    }
+    .modal-btn {
+        font-size: 14px;
+    }
+    .workPage .zoom:hover button.modal-btn {
+        top: 30px;
+        left: 90px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 14px;
+    }
+    #form-image img {
+        width: 50%;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+}
+
+/* iPad Portrait */
+@media only screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .sidebar-orientation {
+        display: block;
+        transition: 1s ease-in-out;
+        margin-bottom: 2rem;
+        margin: 0;
+        background-image: url("../Images/sidebar.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        position: relative;
+        top: 0.5rem;
+        width: 100%;
+    }
+    .orientation-sidebar {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        rotate: 360deg;
+        transition: 1s ease-in-out;
+    }
+    .loader {
+        display: none !important;
+    }
+    .loader .semi-circle {
+        display: none !important;
+    }
+     .ball {
+        display: none !important;
+    }
+    .clock {
+        display: none !important;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 3.5rem;
+        line-height: 3.8rem;
+    }
+    .sidebar-logo {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 14px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        display: none !important;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .big-content {
+        margin: 0 !important;
+    }
+    .small-content {
+        display: none;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 14px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 14px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 14px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 14px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 3rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 14px;
+    }
+    .modal-div {
+        margin: 3rem 0 2rem 0;
+    }
+    .workPage .banner img {
+        height: 125px;
+    }
+    .project-card:hover .content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 14px;
+    }
+    .project-card:hover img {
+        height: 160px;
+    }
+    .modal-btn {
+        font-size: 14px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 14px;
+    }
+    #form-image img {
+        display: block;
+        width: 60%;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+    .small-content-orientation {
+        display: block;
+        padding: 0px 10px 0px 10px;
+        transition: 1s ease-in-out;
+        margin-bottom: 5rem;
+        margin: 0;
+    }
+    .sidebar-orientation hr {
+        display: none;
+    }
+    .sidebar-orientation ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+    }
+    .sidebar-orientation ul li {
+        margin: 1.5rem 1rem;
+    }
+    .sidebar-orientation ul li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .sidebar-orientation ul li a.active {
+        color: rgb(255, 255, 255);
+        background-color: #000000a3;
+        border-radius: 10px;
+        padding: 1rem !important;
+    }
+    .sidebar-orientation ul li .active {
+        padding: 0;
+    }
+    .sidebar-orientation ul li a i {
+        margin-right: 0.3rem;
+    }
+    .sidebar-orientation .social-icons{
+        display: none;
+    }
+    .sidebar-orientation .social-icons-div p, 
+    .sidebar-orientation .social-icons-div a {
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 1rem;
+    }
+    .big-content .contact-form-section {
+        margin: 0 0 2rem 0;
+    }
+}
+
+/* Tablets Mobile portrait */
+@media (max-device-width: 800px) 
+and (orientation: portrait) { 
+    .sidebar-orientation {
+        display: block;
+        transition: 1s ease-in-out;
+        margin-bottom: 2rem;
+        margin: 0;
+        background-image: url("../Images/sidebar.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        position: relative;
+        top: 0.5rem;
+        width: 100%;
+    }
+    .orientation-sidebar {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        rotate: 360deg;
+        transition: 1s ease-in-out;
+    }
+    .loader {
+        display: none !important;
+    }
+    .loader .semi-circle {
+        display: none !important;
+    }
+     .ball {
+        display: none !important;
+    }
+    .clock {
+        display: none !important;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .sidebar-logo {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 14px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        display: none !important;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .big-content {
+        margin: 0 !important;
+    }
+    .small-content {
+        display: none;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 12px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 12px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 12px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 12px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 12px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 2rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 18px;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 12px;
+    }
+    .modal-div {
+        margin: 3rem 0 2rem 0;
+    }
+    .workPage .banner {
+        text-align: center;
+    }
+    .workPage .banner img {
+        width: 70%;
+    }
+    .workPage .banner:hover img {
+        width: 70%;
+    }
+    .project-card {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .project-card:hover .content h2 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 12px;
+    }
+    .project-card:hover img {
+        height: 90px;
+    }
+    .modal-btn {
+        font-size: 10px;
+    }
+    .workPage .zoom:hover button.modal-btn {
+        top: 10px;
+        left: 90px;
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 14px;
+    }
+    #form-image img {
+        display: none;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+    .small-content-orientation {
+        display: block;
+        padding: 0px 10px 0px 10px;
+        transition: 1s ease-in-out;
+        margin-bottom: 5rem;
+        margin: 0;
+    }
+    .sidebar-orientation hr {
+        display: none;
+    }
+    .sidebar-orientation ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+    }
+    .sidebar-orientation ul li {
+        margin: 1.5rem 0.5rem;
+    }
+    .sidebar-orientation ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 8px;
+        font-size: 10px;
+    }
+    .sidebar-orientation ul li a.active {
+        color: rgb(255, 255, 255);
+        background-color: #000000a3;
+        border-radius: 10px;
+        font-size: 10px;
+        padding: 8px !important;
+    }
+    .sidebar-orientation ul li .active {
+        padding: 0;
+    }
+    .sidebar-orientation ul li a i {
+        margin-right: 0.3rem;
+    }
+    .sidebar-orientation .social-icons{
+        display: none;
+    }
+    .sidebar-orientation .social-icons-div p, 
+    .sidebar-orientation .social-icons-div a {
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 1rem;
+    }
+    .big-content .contact-form-section {
+        margin: 0 0 2rem 0;
+    }
+}
+
+/* Tablets Mobiles Landscape */
+@media (max-device-width: 768px) 
+and (orientation: landscape) {
+    .sidebar-logo {
+        display: none;
+    }
+    .clock {
+        font-size: 1.5rem;
+        letter-spacing: 7px;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .loader .semi-circle {
+        top: calc(50% - 100px);
+        left: calc(125% - 100px);
+        width: 50px;
+        height: 50px;
+        border-bottom: 25px solid #ffffff;
+    }
+    .ball {
+        top: calc(42% - 50px);
+        left: calc(66% + 50px);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: bounceTablets 2s linear infinite;
+    }
+    @keyframes bounceTablets {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        30% {
+            transform: translateY(-110px);
+        }
+        40% {
+            transform: translateY(-140px);
+        }
+    }
+    .sidebar {
+        margin-top: 0rem;
+        width: 140px;
+    }
+    .sidebar ul, .sidebarSmall ul {
+        margin-bottom: 0;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 14px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        margin-top: 0rem;
+        width: 72px;
+        transition: 1s ease-in-out;
+        overflow: visible;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .social-icons {
+        height: 2rem;
+    }
+    .social-icons .social-icons-div p {
+        display: none !important;
+    }
+    .sidebarSmall .social-icons-div {
+        font-size: 12px !important;
+    }
+    .big-content {
+        margin-left: 90px !important;
+    }
+    .small-content {
+        margin-left: 150px;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 14px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 14px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 14px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 14px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 3rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 14px;
+    }
+    .modal-div {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .project-card:hover .content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 14px;
+    }
+    .project-card:hover img {
+        height: 160px;
+    }
+    .modal-btn {
+        font-size: 14px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 14px;
+    }
+    #form-image img {
+        width: 100%;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+}
+
+/* Small laptops landscape */
+@media (min-device-width: 1024px) 
+and (orientation: landscape) { 
+    .clock {
+        font-size: 3rem;
+        letter-spacing: 7px;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .loader .semi-circle {
+        top: calc(40% - 100px);
+        left: calc(125% - 100px);
+        width: 50px;
+        height: 50px;
+        border-bottom: 25px solid #ffffff;
+    }
+    .ball {
+        top: calc(34% - 50px);
+        left: calc(66% + 50px);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: bounceTablets 2s linear infinite;
+    }
+    @keyframes bounceTablets {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        30% {
+            transform: translateY(-110px);
+        }
+        40% {
+            transform: translateY(-140px);
+        }
+    }
+    .sidebar {
+        margin-top: 8rem;
+        width: 140px;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 18px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        margin-top: 7rem;
+        width: 72px;
+        transition: 1s ease-in-out;
+        overflow: visible;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .big-content {
+        margin-left: 90px !important;
+    }
+    .small-content {
+        margin-left: 150px;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 22px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 14px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 14px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 14px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 26px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 4rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 20px;
+    }
+    .modal-div {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .workPage .banner img {
+        height: 140px;
+    }
+    .project-card:hover .content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 14px;
+    }
+    .project-card:hover img {
+        height: 120px;
+    }
+    .modal-btn {
+        font-size: 14px;
+    }
+    .workPage .zoom:hover button.modal-btn {
+        top: 35px;
+        left: 100px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 22px;
+    }
+    #form-image img {
+        width: 50%;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+}
+
+/* Laptops non-retina screens */
+@media screen and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .clock {
+        font-size: 3rem;
+        letter-spacing: 7px;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .loader .semi-circle {
+        top: calc(40% - 100px);
+        left: calc(125% - 100px);
+        width: 50px;
+        height: 50px;
+        border-bottom: 25px solid #ffffff;
+    }
+    .ball {
+        top: calc(34% - 50px);
+        left: calc(66% + 50px);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: bounceTablets 2s linear infinite;
+    }
+    @keyframes bounceTablets {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        30% {
+            transform: translateY(-110px);
+        }
+        40% {
+            transform: translateY(-140px);
+        }
+    }
+    .sidebar {
+        margin-top: 6rem;
+        width: 140px;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 18px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        margin-top: 4rem;
+        width: 72px;
+        transition: 1s ease-in-out;
+        overflow: visible;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .big-content {
+        margin-left: 90px !important;
+    }
+    .small-content {
+        margin-left: 150px;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 22px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 14px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 14px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 14px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 26px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 4rem;
+    }
+    .workPage .heading h2 span {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 20px;
+    }
+    .workPage .banner img {
+        height: 265px;
+    }
+    .modal-div {
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    .project-card:hover .content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 14px;
+    }
+    .project-card:hover img {
+        height: 140px;
+    }
+    .modal-btn {
+        font-size: 14px;
+    }
+    .workPage .zoom:hover button.modal-btn {
+        top: 85px;
+        left: 165px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 22px;
+    }
+    #form-image img {
+        width: 65%;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+}
+
+/* Laptops retina screens */
+@media screen and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+    .clock {
+        font-size: 3rem;
+        letter-spacing: 7px;
+    }
+    .heading {
+        margin: 1rem 0rem;
+    }
+    .heading h1 span {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .loader .semi-circle {
+        top: calc(40% - 100px);
+        left: calc(125% - 100px);
+        width: 50px;
+        height: 50px;
+        border-bottom: 25px solid #ffffff;
+    }
+    .ball {
+        top: calc(34% - 50px);
+        left: calc(66% + 50px);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        animation: bounceTablets 2s linear infinite;
+    }
+    @keyframes bounceTablets {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        30% {
+            transform: translateY(-110px);
+        }
+        40% {
+            transform: translateY(-140px);
+        }
+    }
+    .sidebar {
+        margin-top: 8rem;
+        width: 140px;
+    }
+    .sidebar ul li a {
+        padding: 10px;
+    }
+    .sidebar span {
+        font-size: 13px;
+    }
+    .sidebar ul li a i {
+        font-size: 18px;
+        margin-right: 0.3rem;
+    }
+    .sidebar .social-icons i {
+        font-size: 16px;
+        margin-right: 0.1rem;
+    }
+    .sidebarSmall {
+        margin-top: 7rem;
+        width: 72px;
+        transition: 1s ease-in-out;
+        overflow: visible;
+    }
+    .sidebarSmall ul li a {
+        padding: 9px;
+    }
+    .big-content {
+        margin-left: 90px !important;
+    }
+    .small-content {
+        margin-left: 150px;
+    }
+    h1:after {
+        font-size: 12px;
+    }
+    h1:before {
+        font-size: 12px;
+    }
+    .heading-text p {
+        font-size: 22px;
+    }
+    .heading-text p:before, .project-paragraph p:before, .myself-paragraph p:before {
+        font-size: 14px;
+    }
+    .heading-text p:after, .project-paragraph p:after, .myself-paragraph p:after {
+        font-size: 14px;
+    }
+    .portfolio-text h2:before, .myself-section .heading h2:before {
+        font-size: 14px;
+    }
+    .portfolio-text h2:after, .myself-section .heading h2:after {
+        font-size: 14px;
+    }
+    .contact-btn {
+        margin-top: 0rem;
+        padding: 5px 15px;
+        font-size: 26px;
+    }
+    .position {
+        width: 70%;
+    }
+    .heading h2 span {
+        font-size: 4rem;
+    }
+    .portfolio-text {
+        margin-top: -6.5rem;
+    }
+    .portfolio-text .heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-paragraph p {
+        font-size: 20px;
+    }
+    .modal-div {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .workPage .banner img {
+        height: 265px;
+    }
+    .project-card:hover .content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .project-card:hover .content p {
+        font-size: 14px;
+    }
+    .project-card:hover img {
+        height: 120px;
+    }
+    .modal-btn {
+        font-size: 14px;
+    }
+    .workPage .zoom:hover button.modal-btn {
+        top: 85px;
+        left: 175px;
+    }
+    .myself-section .heading {
+        margin: 0;
+    }
+    .myself-paragraph p {
+        font-size: 22px;
+    }
+    #form-image img {
+        width: 50%;
+    }
+    .footer-div a, .footer-div h6 {
+        font-size: 14px;
+    }
+}
+
+

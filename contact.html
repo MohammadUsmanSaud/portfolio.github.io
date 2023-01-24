@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon and Title -->
+    <!-- <link rel="icon" href="./Images/U-logo.png" type="image/icon type"> -->
+    <title>US | Front End Developer | Bootstrap - Freelancer</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolioMediaQuery.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="contactPage">
+    <!-- Sidebar -->
+    <section>
+        <div class="orientation-sidebar">
+            <button onclick="myFunctionOrientationSidebar()" class="hamburger mt-3"><i class="bi bi-list"></i></button>
+        </div>
+        <div class="sidebar" id="sidebar-div-id">
+            <div class="sidebar-logo">
+                <button onclick="myFunction()" class="hamburger mt-3"><i class="bi bi-list"></i></button>
+            </div>
+            <ul>
+                <hr>
+                <li>
+                    <a href="index.html"><i class="bi bi-file-person"></i><span>About</span></a>
+                </li>
+                <li>
+                    <a href="skills.html"><i class="bi bi-lightning-charge-fill"></i><span>Skills</span></a>
+                </li>
+                <li>
+                    <a href="work.html"><i class="bi bi-person-workspace"></i><span>Work</span></a>
+                </li>
+                <li>
+                    <a class="active" href="contact.html"><i class="bi bi-person-lines-fill"></i><span>Contact</span></a>
+                </li>
+                <hr>
+            </ul>    
+            <div class="social-icons">
+                <div class="social-icons-div">
+                    <p class="mb-2">Socials</p>
+                    <a class="" href="#"><i class="bi bi-github"></i></a>
+                    <a class="" href="#"><i class="bi bi-linkedin"></i></a>
+                    <a class="" href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <!-- <div class="sidebar-image text-center">
+                <img src="./imagesusman.jpg" class="img-fluid" alt="#">
+            </div> -->
+        </div>          
+    </section>
+    <!-- Sidebar End -->
+
+    <!-- Content Start -->
+    <section>
+        <div class="small-content small-content-orientation " id="contact-div-id">
+            <!-- Contact Form Start -->
+            <section class="contact-form-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="contact-form">
+                            <div class="row">
+                                <div style="display: flex; align-items: center; justify-content: center;">
+                                    <div class="col-md-6">
+                                        <div class="map-div">
+                                            <div id="map"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-design">
+                                            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h2 class="mt-5 mb-4"><b>Get in touch</b></h2>
+                                                    </div>
+                                                    <div class="col-md-12 mb-2 fcf-form-group">
+                                                        <div class="input-group fcf-input-group">
+                                                            <input type="text" id="Name" name="Name" class="fcf-form-control form-control" required placeholder="Name">
+                                                            <i class="bi bi-person-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-2 fcf-form-group">
+                                                        <div class="input-group fcf-input-group">
+                                                            <input type="email" id="Email" name="Email" class="fcf-form-control form-control" required placeholder="Email">
+                                                            <i class="bi bi-envelope-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 fcf-form-group">
+                                                        <div class="input-group fcf-input-group">
+                                                            <textarea id="Message" name="Message" class="message-input fcf-form-control" rows="6" maxlength="3000" required placeholder="Message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mt-3 mb-5">
+                                                        <div class="input-group fcf-form-group">
+                                                            <button type="submit" id="fcf-button" class="form-send-btn ">SEND</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <!-- Contact Form End -->
+        </div>
+    </section>
+    <!-- Content End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-div text-center">
+                        <div class="footer-social-icons">
+                            <a class="me-3" href="#"><i class="bi bi-github"></i></a>
+                            <a class="me-3" href="#"><i class="bi bi-linkedin"></i></a>
+                            <a class="" href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                        <h6>© <script>document.write(new Date().getFullYear())</script> | Freelancer | Frontend Developer</h6>
+                        <h6>Made with <span class="footer-love-icon">&#10084;</span> in Pakistan, Lahore</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_jNCPQ-GL9iviKLR-gTorLYUQpVq5vu4&callback=initMap&v=weekly" defer></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <!-- My js -->
+    <script type="text/javascript" src="./js/portfolioContact.js"></script>
+    <!-- Bootstrap js -->
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+</body>
+</html>

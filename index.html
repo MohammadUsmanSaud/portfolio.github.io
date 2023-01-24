@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon and Title -->
+    <!-- <link rel="icon" href="./Images/U-logo.png" type="image/icon type"> -->
+    <title>US | Front End Developer | Bootstrap - Freelancer</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolioMediaQuery.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <section>
+        <div class="orientation-sidebar">
+            <button onclick="myFunctionOrientationSidebar()" class="hamburger mt-3"><i class="bi bi-list"></i></button>
+        </div>
+        <div class="sidebar" id="sidebar-div-id">
+            <div class="sidebar-logo">
+                <button onclick="myFunction()" class="hamburger mt-3"><i class="bi bi-list"></i></button>
+            </div>
+            <ul>
+                <hr>
+                <li>
+                    <a class="active" href="index.html"><i class="bi bi-file-person"></i><span>About</span></a>
+                </li>
+                <li>
+                    <a href="skills.html"><i class="bi bi-lightning-charge-fill"></i><span>Skills</span></a>
+                </li>
+                <li>
+                    <a href="work.html"><i class="bi bi-person-workspace"></i><span>Work</span></a>
+                </li>
+                <li>
+                    <a href="contact.html"><i class="bi bi-person-lines-fill"></i><span>Contact</span></a>
+                </li>
+                <hr>
+            </ul>    
+            <div class="social-icons">
+                <div class="social-icons-div">
+                    <p class="mb-2">Socials</p>
+                    <a class="" href="#"><i class="bi bi-github"></i></a>
+                    <a class="" href="#"><i class="bi bi-linkedin"></i></a>
+                    <a class="" href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <!-- <div class="sidebar-image text-center">
+                <img src="./imagesusman.jpg" class="img-fluid" alt="#">
+            </div> -->
+        </div>          
+    </section>
+    <!-- Sidebar End -->
+
+    <!-- Content Start -->
+    <section>
+        <div class="small-content small-content-orientation " id="contact-div-id">
+            <!-- Main Section -->
+            <section class="main-section">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                    </div>  
+                    <div class="col-md-8 col-lg-10">
+                        <div class="heading">
+                            <h1><br>
+                                <span>H</span><span>i</span><span>,</span>
+                                <br>
+                                <span>I</span><span>'</span><span class="me-1 me-md-2 me-lg-3">m</span>
+                                <span>U</span><span>s</span><span>m</span><span>a</span><span>n</span>
+                                <br>
+                                <Span>W</Span><Span>e</Span><Span class="me-1 me-md-2 me-lg-3">b</Span><Span>D</Span><Span>e</Span><Span>v</Span><Span>e</Span><Span>l</Span><Span>o</Span><Span>p</Span><Span>e</Span><Span>r</Span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2">
+                        <div class="animation">
+                            <div class="loader">
+                                <div class="semi-circle">
+                                </div>
+                                <div class="ball"></div>
+                                <!-- <div class="ball2"></div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="heading-text">
+                            <p><br>Front End Developer / Bootstrap Expert / Wordpress Expert<br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="contact-btn" id="contact-me" onclick="myFunctionContact()">Contact Me</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Main Section End -->
+            <!-- Work Section -->
+            <section class="work-section mt-5">
+                <img src="./images/work.png" class="img-fluid position" alt="#">
+                <!-- Portfolio Heading -->
+                <div class="portfolio-text">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading">
+                                <h2><br>
+                                    <span>M</span><span class="me-1 me-md-2 me-lg-3">y</span>
+                                    <Span>P</Span><Span>o</Span><Span>r</Span><Span>t</Span><Span>f</Span><Span>o</Span><Span>l</Span><Span>i</Span><Span>o</Span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Heading End -->
+                <!-- Projects Start -->
+                <div class="pojects">
+                    <div class="row">
+                        <div class="col-md-7 col-lg-6">
+                            <div class="project-paragraph">
+                                <p><br>A small collection of my projects. I have done all these projects with some amazing people. Visit my<span><a href="work.html" class="mx-1">work</a></span>page<br></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-5">
+                            <div style="float: right;">
+                                <button class="contact-btn" id="see-more" onclick="window.location.href = 'work.html';">See more!</button>
+                            </div>
+                        </div>
+                        <!-- Modals -->
+                        <div class="col-md-12">
+                            <div class="modal-div">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12 col-md-12 col-lg-6">
+                                        <div class="project-card">
+                                            <div class="circle"></div>
+                                            <div class="content">
+                                                <h2>Insurance Verification</h2>
+                                                <p>This is my dashboard design for Insurance verification. It consists of medical history and much more.</p>
+                                                <button class="modal-btn" href="#modalOne">Open Project</button>
+                                            </div>
+                                            <img src="./images/insurance1.PNG" class="img-fluid hover-img" alt="#">
+                                            <div class="modal-overlay" id="modalOne">
+                                                <div class="modal-container">
+                                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                                        <div class="carousel-indicators">
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                        </div>
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img src="./images/insurance1.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/insurance2.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/insurance3.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
+                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
+                                                    </div>
+                                                    <button class="close-btn">
+                                                        <i class="bi bi-x-lg"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6"> 
+                                        <div class="project-card">
+                                            <div class="circle"></div>
+                                            <div class="content">
+                                                <h2>Talends Web Design</h2>
+                                                <p>This web design is for hiring agency or people as employees, freelancers or interns</p>
+                                                <button class="modal-btn" href="#modalTwo">Open Project</button>
+                                            </div>
+                                            <img src="./Images/talends1.PNG" class="img-fluid" alt="#">
+                                            <div class="modal-overlay" id="modalTwo">
+                                                <div class="modal-container">
+                                                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                                                        <div class="carousel-indicators">
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                        </div>
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img src="./images/talends1.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/talends2.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/talends3.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/talends4.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
+                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
+                                                    </div>
+                                                    <button class="close-btn">
+                                                        <i class="bi bi-x-lg"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6 mt-lg-5"> 
+                                        <div class="project-card">
+                                            <div class="circle"></div>
+                                            <div class="content">
+                                                <h2>Online Money Transfer Web Design</h2>
+                                                <p>This is a basic Web Design to send money to sellers or companies.</p>
+                                                <button class="modal-btn" href="#modalThree">Open Project</button>
+                                            </div>
+                                            <img src="./images/quidWeb1.PNG" class="img-fluid" alt="#">
+                                            <div class="modal-overlay" id="modalThree">
+                                                <div class="modal-container">
+                                                    <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+                                                        <div class="carousel-indicators">
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                        </div>
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img src="./images/quidWeb1.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/quidWeb2.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/quidWeb3.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
+                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
+                                                    </div>
+                                                    <button class="close-btn">
+                                                        <i class="bi bi-x-lg"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6 mt-lg-5"> 
+                                        <div class="project-card">
+                                            <div class="circle"></div>
+                                            <div class="content">
+                                                <h2>Money Transfer Dashboard Design</h2>
+                                                <p>This is a basic Web Design to send money to sellers or companies.</p>
+                                                <button class="modal-btn" href="#modalFour">Open Project</button>
+                                            </div>
+                                            <img src="./images/quidDash1.PNG" class="img-fluid" alt="#">
+                                            <div class="modal-overlay" id="modalFour">
+                                                <div class="modal-container">
+                                                    <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
+                                                        <div class="carousel-indicators">
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                        </div>
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img src="./images/quidDash1.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/quidDash2.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/quidDash3.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="./images/quidDash4.PNG" class="d-block w-100" alt="...">
+                                                            </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
+                                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
+                                                    </div>
+                                                    <button class="close-btn">
+                                                        <i class="bi bi-x-lg"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modals End -->
+                    </div>
+                </div>
+                <!-- Projects End -->
+            </section>
+            <!-- Work Section End -->
+            <!-- Myself Section Start -->
+            <section class="myself-section">
+                <div class="myself">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading">
+                                <h2><br>
+                                    <span>M</span><span>e</span>
+                                    <Span>,</Span><Span class="ms-1 ms-md-3">M</Span><Span>y</Span><Span>s</Span><Span>e</Span><Span>l</Span><Span>f</Span><Span class="ms-1 ms-md-3">a</Span><Span>n</Span><Span>d</Span><Span class="ms-1 ms-md-3">I</Span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="myself-paragraph">
+                            <p><br>
+                                I have completed my Bachelors in Computer Science in 2022. After completing my bachelors
+                                i did some marketing courses. Then I did internship in Punjab Information Technology Board (PITB). I worked on
+                                multiple different projects as a Frontend Developer. I did the internship for three (3) months and now I am 
+                                working as a Freelancer.<br></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Myself Section End -->
+            <!-- Contact Form Start -->
+            <section class="contact-form-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="contact-form">
+                            <div class="row">
+                                <div style="display: flex; align-items: center; justify-content: center;">
+                                    <div class="col-md-6">
+                                        <div id="form-image">
+                                            <img src="./images/letter-image-bg.png" class="img-fluid" alt="#">                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-design">
+                                            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h2 class="mt-5 mb-4"><b>Get in touch</b></h2>
+                                                    </div>
+                                                    <div class="col-md-12 mb-2 fcf-form-group">
+                                                        <div class="input-group fcf-input-group">
+                                                            <input type="text" id="Name" name="Name" class="fcf-form-control form-control" required placeholder="Name">
+                                                            <i class="bi bi-person-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-2 fcf-form-group">
+                                                        <div class="input-group fcf-input-group">
+                                                            <input type="email" id="Email" name="Email" class="fcf-form-control form-control" required placeholder="Email">
+                                                            <i class="bi bi-envelope-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 fcf-form-group">
+                                                        <div class="input-group fcf-input-group">
+                                                            <textarea id="Message" name="Message" class="message-input fcf-form-control" rows="6" maxlength="3000" required placeholder="Message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mt-3 mb-5">
+                                                        <div class="input-group fcf-form-group">
+                                                            <button type="submit" id="fcf-button" class="form-send-btn ">SEND</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <!-- Contact Form End -->
+        </div>
+    </section>
+    <!-- Content End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-div text-center">
+                        <div class="footer-social-icons">
+                            <a class="me-3" href="#"><i class="bi bi-github"></i></a>
+                            <a class="me-3" href="#"><i class="bi bi-linkedin"></i></a>
+                            <a class="" href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                        <h6>© <script>document.write(new Date().getFullYear())</script> | Freelancer | Frontend Developer</h6>
+                        <h6>Made with <span class="footer-love-icon">&#10084;</span> in Pakistan, Lahore</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <!-- My js -->
+    <script type="text/javascript" src="./js/portfolio.js"></script>
+    <!-- Bootstrap js -->
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+</body>
+</html>
