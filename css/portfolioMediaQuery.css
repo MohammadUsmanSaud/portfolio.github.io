@@ -1083,7 +1083,7 @@ and (min-resolution: 192dpi) {
         }
     }
     .sidebar {
-        margin-top: 8rem;
+        margin-top: 4rem;
         width: 140px;
     }
     .sidebar ul li a {
