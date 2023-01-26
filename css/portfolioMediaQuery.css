@@ -924,7 +924,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         }
     }
     .sidebar {
-        margin-top: 3rem;
+        margin-top: 0rem;
         width: 140px;
     }
     .sidebar ul li a {
