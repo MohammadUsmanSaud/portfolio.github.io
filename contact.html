@@ -47,9 +47,9 @@
             <div class="social-icons">
                 <div class="social-icons-div">
                     <p class="mb-2">Socials</p>
-                    <a class="" href="#"><i class="bi bi-github"></i></a>
-                    <a class="" href="#"><i class="bi bi-linkedin"></i></a>
-                    <a class="" href="#"><i class="bi bi-instagram"></i></a>
+                    <a class="" href="https://github.com/MohammadUsmanSaud"><i class="bi bi-github"></i></a>
+                    <a class="" href="https://www.linkedin.com/in/mohammad-usman-saud-63293525b/"><i class="bi bi-linkedin"></i></a>
+                    <a class="" href="https://www.instagram.com/mohammad_usman86/"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
             <!-- <div class="sidebar-image text-center">
@@ -119,7 +119,7 @@
     <!-- Content End -->
 
     <!-- Footer Start -->
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -135,15 +135,34 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- Footer End -->
     
+<script>
+    
+    // Map
+    // Initialize and add the map
+    function initMap() {
+        // The location
+        const uluru = { lat: 31.5204, lng: 74.3587 };
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+        });
+        // The marker
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+    }window.initMap = initMap;
+
+</script>
     <!-- Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_jNCPQ-GL9iviKLR-gTorLYUQpVq5vu4&callback=initMap&v=weekly" defer></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!-- My js -->
-    <script type="text/javascript" src="./js/portfolioContact.js"></script>
+    <!-- <script type="text/javascript" src="./js/portfolioContact.js"></script> -->
     <!-- Bootstrap js -->
     <script type="text/javascript" src="./js/bootstrap.js"></script>
 </body>
