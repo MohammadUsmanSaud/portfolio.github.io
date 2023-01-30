@@ -115,31 +115,7 @@ portrait.addEventListener("change", function(e) {
     }
 });
 
-// Contact Form 3D Hover
-let hover3D = document.getElementById("form-image");
-const height = hover3D.clientHeight;
-const width = hover3D.clientWidth;
-hover3D.addEventListener("mousemove", handleMove);
 
-function handleMove(e) {
-    const xVal = e.layerX;
-    const yVal = e.layerY;
-    const yRotation = 20 * ((xVal - width / 2) / width);
-    const xRotation = -20 * ((yVal - height / 2) / height);
-    const string = "perspective(500px) scale(1.1) rotateX(" + xRotation + "deg) rotateY(" + yRotation + "deg)";
-    hover3D.style.transform = string;
-}
-hover3D.addEventListener("mouseout", function() {
-    hover3D.style.transform = "perspective(500px) scale(1) rotateX(0) rotateY(0)";
-})
-
-hover3D.addEventListener("mousedown", function() {
-    hover3D.style.transform = "perspective(500px) scale(0.9) rotateX(0) rotateY(0)";
-})
-
-hover3D.addEventListener("mouseup", function() {
-    hover3D.style.transform = "perspective(500px) scale(1.1) rotateX(0) rotateY(0)";
-})
     
 // Sidebar open and close with button   
 var count = 0;
@@ -172,7 +148,7 @@ window.onscroll = function (e) {
     if( position === 0) {
         element.classList.remove("sidebarSmall");
         $("#contact-div-id").addClass("small-content");
-        $("#contact-div-id").removeClass("big-content"); 
+        $("#contact-div-id").removeClass("big-content");
     }
     else {
         element.classList.add("sidebarSmall");
