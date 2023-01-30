@@ -562,8 +562,9 @@ h1:after {
     line-height: 5.5rem;
     color: #000000;
     visibility: visible;
+    opacity: 0;
 }
-/* .heading h2 span:nth-of-type(1) {
+.heading h2 span:nth-of-type(1) {
     animation: fadeIn 1s ease-in .7s forwards;
 }
 .heading h2 span:nth-of-type(2) {
@@ -595,7 +596,7 @@ h1:after {
 }
 .heading h2 span:nth-of-type(11) {
     animation: fadeIn 1s ease-in 1.8s forwards;
-} */
+}
 h2 span:hover {
     display: inline-block;
     animation: text .6s forwards !important;  
@@ -608,21 +609,29 @@ h2 span:hover {
     font-family: 'La Belle Aurore',cursive;
     color: #b4b4b4;
     font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn 1s ease-in 1.8s forwards;
 }
 .portfolio-text h2:after, .myself-section .heading h2:after {
     content: '</h2>';
     font-family: 'La Belle Aurore',cursive;
     color: #b4b4b4;
     font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn 1s ease-in 1.8s forwards;
 }
 .project-paragraph p {
     font-family: 'Courier New', monospace;
     color: #000000;
+    opacity: 0;
+    animation: fadeIn 1s ease-in .7s forwards;
 }
 .project-paragraph p span a {
     font-weight: 700;
     color: #2564be;
     text-decoration: none;
+    opacity: 0;
+    animation: fadeIn 1s ease-in .7s forwards;
 }
 .project-paragraph p span a:hover {
     color: #000000;
@@ -636,6 +645,8 @@ h2 span:hover {
     background-image: linear-gradient( 95.2deg,  #E4E5E6, #00416A  64% );
     transition: 1s ease-in-out;
     padding: 1rem;
+    opacity: 0;
+    animation: fadeIn 1s ease-in .7s forwards;
 }
 .project-card {
     position: relative;
